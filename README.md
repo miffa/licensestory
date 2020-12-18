@@ -3,7 +3,7 @@
     -p 密钥对前缀, 默认rsa, 可以包含地址  
 
 ```
-    tpaaslicense genkey -p xxxx
+    milicense genkey -p xxxx
 
 ```
 
@@ -15,7 +15,7 @@
     -p 密钥对前缀, 可以包含地址  
 
 ```
-    tpaaslicense sign -f testlicense.txt -u 5555666 -c '''{"corporation":"badluckin.com.ltd","quota":40,"expired_time":"2022-02-03 23:59:59","extension":"thi is a test","version":"v2.34"}'''  -p xxxx 
+    milicense sign -f testlicense.txt -u 5555666 -c '''{"corporation":"badluckin.com.ltd","quota":40,"expired_time":"2022-02-03 23:59:59","extension":"thi is a test","version":"v2.34"}'''  -p xxxx 
 
 ```
 
@@ -26,7 +26,7 @@
     -p 密钥对前缀, 可以包含地址  
 
 ```
-tpaaslicense verify -f testlicense.txt -u 5555666  -p xxxx 
+milicense verify -f testlicense.txt -u 5555666  -p xxxx 
 
 ```
 
@@ -36,7 +36,7 @@ tpaaslicense verify -f testlicense.txt -u 5555666  -p xxxx
     -p 密钥前缀  
 
 ```
-tpaaslicense getuuid -p xxxxx -u 'VoMXf3L3b06OXzfPWsdVBkdNxm5g71oXjbri4OZKxQ79WPRpy07Uviye2+f5yu7tcMUPA+F8c/mQ
+milicense getuuid -p xxxxx -u 'VoMXf3L3b06OXzfPWsdVBkdNxm5g71oXjbri4OZKxQ79WPRpy07Uviye2+f5yu7tcMUPA+F8c/mQ
 hdzipYU9pnnWV6PJWinE+Z/Ebe47L/d6D1xuE0tZ4SHRGCyp8Bkb6pCzcfniSBwzAtF8QwAz74KG
 vQhhT5Rt43z6uBdE9U4='
 ```
@@ -45,7 +45,7 @@ vQhhT5Rt43z6uBdE9U4='
     -t kubernetes sa token
 
 ```
-tpaaslicense genuuid -t 'VoMXf3L3b06OXzfPWsdVBkdNxm5g71oXjbri4OZKxQ79WPRpy07Uviye2+f5yu7tcMUPA+F8c/mQ
+milicense genuuid -t 'VoMXf3L3b06OXzfPWsdVBkdNxm5g71oXjbri4OZKxQ79WPRpy07Uviye2+f5yu7tcMUPA+F8c/mQ
 hdzipYU9pnnWV6PJWinE+Z/Ebe47L/d6D1xuE0tZ4SHRGCyp8Bkb6pCzcfniSBwzAtF8QwAz74KG
 vQhhT5Rt43z6uBdE9U4='
 ```

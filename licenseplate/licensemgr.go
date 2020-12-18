@@ -3,7 +3,7 @@ package licenseplate
 import (
 	"fmt"
 
-	"code.troila.io/license/utils"
+	"code.miffa.io/license/utils"
 
 	"github.com/pkg/errors"
 )

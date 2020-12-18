@@ -19,8 +19,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	license "code.troila.io/license/licenseplate"
-	utils "code.troila.io/license/utils"
+	license "code.miffa.io/license/licenseplate"
+	utils "code.miffa.io/license/utils"
 
 	"github.com/spf13/cobra"
 )

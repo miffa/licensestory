@@ -10,7 +10,7 @@ import (
 	//"encoding/hex"
 	"encoding/json"
 
-	rsalib "code.troila.io/license/crypt"
+	rsalib "code.miffa.io/license/crypt"
 
 	"github.com/pkg/errors"
 )

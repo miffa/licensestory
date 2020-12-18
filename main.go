@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "code.troila.io/license/cmd"
+import "code.miffa.io/license/cmd"
 
 func main() {
 	cmd.Execute()

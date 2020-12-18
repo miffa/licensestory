@@ -2,7 +2,7 @@ package licensebox
 
 import (
 	"encoding/json"
-	"code.troila.io/licenselicenseplate"
+	"code.miffa.io/licenselicenseplate"
 )
 
 // LVerifier

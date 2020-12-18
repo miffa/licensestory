@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"io/ioutil"
-	"code.troila.io/licenseutils"
+	"code.miffa.io/licenseutils"
 	"os"
 	"testing"
 

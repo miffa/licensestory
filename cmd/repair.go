@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"time"
 
-	"code.troila.io/license/crypt"
-	utils "code.troila.io/license/utils"
+	"code.miffa.io/license/crypt"
+	utils "code.miffa.io/license/utils"
 
 	"github.com/spf13/cobra"
 )

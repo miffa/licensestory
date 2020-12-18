@@ -1,4 +1,4 @@
-module code.troila.io/license
+module code.miffa.io/license
 
 go 1.15
 

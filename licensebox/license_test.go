@@ -1,7 +1,7 @@
 package licensebox
 
 import (
-	"code.troila.io/licenseutils"
+	"code.miffa.io/licenseutils"
 	"os"
 	"testing"
 )

@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	license "code.troila.io/license/licenseplate"
+	license "code.miffa.io/license/licenseplate"
 )
 
 // signCmd represents the sign command

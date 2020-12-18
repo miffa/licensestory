@@ -5,7 +5,7 @@ GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test
 GOGET=$(GOCMD) get
 
-BINARY_NAME=tpaaslicense
+BINARY_NAME=milicense
 BIN_PATH=bin
 
 .PHONY: build clean run all
@@ -17,7 +17,7 @@ hello:
 
 build:
 	@[ ! -d $(BIN_PATH) ] && mkdir $(BIN_PATH) || echo bin  dir ok
-	@echo build tpaaslicense  
+	@echo build milicense  
 	$(GOBUILD) \
                         -ldflags "-w -s"\
                         -o $(BIN_PATH)/$(BINARY_NAME) \

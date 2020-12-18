@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	license "code.troila.io/license/licenseplate"
+	license "code.miffa.io/license/licenseplate"
 )
 
 const (
